@@ -1,10 +1,10 @@
 # 系统数据流程设计
 
-<img src="https://raw.githubusercontent.com/Zouxxyy/E-commerce-warehouse/master/resource/images/architecture.png" width="757"/><br/>
+<img src="/resources/architecture.png" width="757"/><br/>
 
 （注：本项目不包括实时数仓部分）
 ## 电商业务表
-<img src="https://raw.githubusercontent.com/Zouxxyy/E-commerce-warehouse/master/resource/images/architecture.png" width="757"/><br/>
+<img src="/resources/business_table.png" width="757"/><br/>
 ## 架构设计
 
 <img src="https://raw.githubusercontent.com/Zouxxyy/E-commerce-warehouse/master/resource/images/architecture.png" width="757"/><br/>
