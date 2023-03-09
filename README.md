@@ -74,5 +74,5 @@
 
 # 指标看板
 
-最终在SuperSet上集成离线指标看板效果
-<img src="/resources/index.png" width="550"/><br/>
+最终在SuperSet上集成离线指标看板效果<br/>
+<img src="/resources/index.png" width="757"/><br/>
