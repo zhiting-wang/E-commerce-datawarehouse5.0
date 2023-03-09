@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <!-- 指定NameNode的地址 -->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://node1:8020</value>
+    </property>
+
+    <!-- 指定hadoop数据的存储目录 -->
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/opt/module/hadoop-3.1.3/data</value>
+    </property>
+
+    <!-- 配置HDFS网页登录使用的静态用户wzt -->
+    <property>
+        <name>hadoop.http.staticuser.user</name>
+        <value>wzt</value>
+    </property>
+<!--配置所有节点的wzt用户都可作为代理用户-->
+<property>
+    <name>hadoop.proxyuser.wzt.hosts</name>
+    <value>*</value>
+</property>
+
+<!--配置wzt用户能够代理的用户组为任意组-->
+<property>
+    <name>hadoop.proxyuser.wzt.groups</name>
+    <value>*</value>
+</property>
+
+<!--配置wzt用户能够代理的用户为任意用户-->
+<property>
+    <name>hadoop.proxyuser.wzt.users</name>
+    <value>*</value>
+</property>
+
+</configuration>
