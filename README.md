@@ -1,13 +1,13 @@
 # 系统数据流程设计
 
-<img src="/resources/architecture.png" width="757"/><br/>
+<img src="/resources/process_design.png" width="757"/><br/>
 
 （注：本项目不包括实时数仓部分）
 ## 电商业务表
 <img src="/resources/business_table.png" width="757"/><br/>
 ## 架构设计
 
-<img src="https://raw.githubusercontent.com/Zouxxyy/E-commerce-warehouse/master/resource/images/architecture.png" width="757"/><br/>
+<img src="/resources/architecture.png" width="757"/><br/>
 ## 集群服务规划
 
 | 服务名称             | 子服务               |     node1 |     node2      | node3 |
@@ -51,7 +51,7 @@
 
 采用维度建模
 
-<img src="https://raw.githubusercontent.com/Zouxxyy/E-commerce-warehouse/master/resource/images/warehouse.jpg" width="550"/><br/>
+<img src="/resources/warehouse.jpg" width="550"/><br/>
 
 
 ## Hive表
@@ -75,4 +75,4 @@
 # 指标看板
 
 最终在SuperSet上集成离线指标看板效果
-<img src="https://raw.githubusercontent.com/Zouxxyy/E-commerce-warehouse/master/resource/images/warehouse.jpg" width="550"/><br/>
+<img src="/resources/index.png" width="550"/><br/>
